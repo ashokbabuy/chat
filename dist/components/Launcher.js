@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _ChatWindow = _interopRequireDefault(require("./ChatWindow"));
 
-var _logoNoBg = _interopRequireDefault(require("../assets/logo-no-bg.svg"));
+var _logoNoBg = _interopRequireDefault(require("../assets/logo-no-bg.png"));
 
 var _closeIcon = _interopRequireDefault(require("../assets/close-icon.png"));
 
