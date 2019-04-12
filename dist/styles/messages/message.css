@@ -1,0 +1,139 @@
+.sc-message {
+    padding: 0px 15px;
+    width: 100%-15px;
+    display: flex;
+}
+
+.sc-message.expand {
+    padding-top: 10px;
+}
+
+.sc-message--content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sc-message--content.sent {
+    justify-content: flex-end;
+}
+
+.sc-message--avatar {
+    align-self: center;
+    margin-right: 15px;
+}
+
+.sc-message--avatar.hidden {
+    visibility: hidden;
+}
+
+.sc-message--content---body {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sc-message--username {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.sc-message--text {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    max-width: calc(100% - 120px);
+    transition: transform 100ms ease-in-out;
+}
+
+.sc-message--text:hover {
+    transform: scale(1.05);
+}
+
+.sc-message--text h1,
+h2,
+h3,
+h3,
+p {
+    margin: 2px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.sc-message--text p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.sc-message--text a {
+    /* color: white; */
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.sc-message--text a:link {
+    color: white;
+}
+
+.sc-message--text a:visited {
+    color: #fff04e;
+}
+
+.sc-message--text a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.sc-message--text a:active {
+    color: white;
+}
+
+.sc-message--text p {
+    word-wrap: break-word;
+}
+
+.sc-message--emoji {
+    cursor: pointer;
+    outline: none;
+    transition: transform 100ms ease-in-out;
+}
+
+.sc-message--emoji:hover {
+    transform: scale(1.1);
+}
+
+.sc-message--date {
+    margin-bottom: 5px;
+    font-size: 70%;
+}
+
+.sc-message--content.sent .sc-message--text {
+    color: white;
+    background-color: #4e8cff;
+    align-self: flex-end;
+}
+
+.sc-message--content.sent .sc-message--date {
+    align-self: flex-end;
+}
+
+.sc-message--content.sent .sc-message--emoji {
+    align-self: flex-end;
+}
+
+.sc-message--content.received .sc-message--text {
+    color: #263238;
+    background-color: #f4f7f9;
+    margin-right: 40px;
+    align-self: flex-start;
+}
+
+.sc-message--content.received .sc-message--date {
+    align-self: flex-start;
+}
+
+@media (max-width: 450px) {
+    .sc-message {
+        width: 80%;
+    }
+}

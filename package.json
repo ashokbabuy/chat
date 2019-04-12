@@ -1,83 +1,112 @@
 {
+  "_from": "rc-chat-view",
+  "_id": "rc-chat-view@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-XJUaUniwb411EbGmRpZOc8CC41f16+4uDS7XIcm2IlaA/hD6iHOg2wNEM9R1jpMvLlY58I9l0rz9A+j7bOO6JQ==",
+  "_location": "/rc-chat-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rc-chat-view",
     "name": "rc-chat-view",
-    "version": "1.0.2",
-    "description": "Fully customisable chat widget for React",
-    "main": "dist/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack-dev-server --hot --config webpack.dev.js",
-        "transpile": "babel src -d dist --copy-files",
-        "build": "webpack  --config webpack.prod.js",
-        "deploy": "npx gh-pages -d demo/dist -b gh-pages",
-        "publish-demo": "npm run build && npm run deploy",
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Christopher-Caroni/rc-chat-view.git"
-    },
-    "keywords": [
-        "react",
-        "chat",
-        "widget",
-        "message",
-        "messenger",
-        "conversation",
-        "ui",
-        "react-component",
-        "emoji"
-    ],
-    "author": "Christopher Caroni",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Christopher-Caroni/rc-chat-view/issues"
-    },
-    "homepage": "https://github.com/Christopher-Caroni/rc-chat-view#readme",
-    "peerDependencies": {
-        "react": "^16.4.0",
-        "react-dom": "^16.4.0"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.0.0-rc.3",
-        "@babel/core": "^7.0.0-rc.3",
-        "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
-        "@babel/preset-env": "^7.0.0-rc.3",
-        "@babel/preset-react": "^7.0.0-rc.3",
-        "babel-eslint": "^9.0.0",
-        "babel-loader": "^8.0.0-beta.6",
-        "babel-runtime": "^6.26.0",
-        "css-loader": "^1.0.0",
-        "eslint": "^5.5.0",
-        "eslint-config-airbnb": "^17.1.0",
-        "eslint-config-prettier": "^3.0.1",
-        "eslint-plugin-babel": "^5.1.0",
-        "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-jsx-a11y": "^6.1.1",
-        "eslint-plugin-prettier": "^2.6.2",
-        "eslint-plugin-react": "^7.11.1",
-        "file-loader": "^2.0.0",
-        "gh-pages": "^1.2.0",
-        "html-webpack-plugin": "^3.2.0",
-        "prettier-eslint": "^8.8.2",
-        "react": "^16.4.2",
-        "react-dom": "^16.4.2",
-        "style-loader": "^0.22.1",
-        "url-loader": "^1.1.1",
-        "webpack": "^4.17.1",
-        "webpack-bundle-analyzer": "^2.13.1",
-        "webpack-cli": "^3.1.0",
-        "webpack-dev-server": "^3.1.6",
-        "webpack-merge": "^4.1.4"
-    },
-    "dependencies": {
-        "babel-plugin-lodash": "^3.3.4",
-        "emoji-mart": "^2.8.1",
-        "markdown-it": "^8.4.2",
-        "markdown-it-emoji": "^1.4.0",
-        "moment": "^2.22.2",
-        "prop-types": "^15.6.2",
-        "react-animate-height": "^2.0.4",
-        "react-avatar": "^3.2.0",
-        "react-hot-loader": "^4.3.5",
-        "react-moment-proptypes": "^1.6.0"
-    }
+    "escapedName": "rc-chat-view",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rc-chat-view/-/rc-chat-view-1.0.2.tgz",
+  "_shasum": "cd8652f2d3d5821675b549f4abdfdd4ae23e043f",
+  "_spec": "rc-chat-view",
+  "_where": "/home/ashokbabuy/Documents/Workspace/Building Insights/iotexchange/BI-1.2-Demo-version",
+  "author": {
+    "name": "Christopher Caroni"
+  },
+  "bugs": {
+    "url": "https://github.com/Christopher-Caroni/rc-chat-view/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-plugin-lodash": "^3.3.4",
+    "emoji-mart": "^2.8.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-emoji": "^1.4.0",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react-animate-height": "^2.0.4",
+    "react-avatar": "^3.2.0",
+    "react-hot-loader": "^4.3.5",
+    "react-moment-proptypes": "^1.6.0"
+  },
+  "deprecated": false,
+  "description": "Fully customisable chat widget for React",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.3",
+    "@babel/core": "^7.0.0-rc.3",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.3",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "@babel/preset-react": "^7.0.0-rc.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.0-beta.6",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "gh-pages": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier-eslint": "^8.8.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6",
+    "webpack-merge": "^4.1.4"
+  },
+  "homepage": "https://github.com/Christopher-Caroni/rc-chat-view#readme",
+  "keywords": [
+    "react",
+    "chat",
+    "widget",
+    "message",
+    "messenger",
+    "conversation",
+    "ui",
+    "react-component",
+    "emoji"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "rc-chat-view",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christopher-Caroni/rc-chat-view.git"
+  },
+  "scripts": {
+    "build": "webpack  --config webpack.prod.js",
+    "deploy": "npx gh-pages -d demo/dist -b gh-pages",
+    "prepublishOnly": "npm run transpile",
+    "publish-demo": "npm run build && npm run deploy",
+    "start": "webpack-dev-server --hot --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel src -d dist --copy-files"
+  },
+  "version": "1.0.2"
 }
